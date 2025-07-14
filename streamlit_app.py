@@ -19,7 +19,7 @@ else:
 
     # Create an OpenAI client.
     client = OpenAI(
-        api_key="GEMINI_API_KEY",
+        api_key=openai_api_key,
         base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
     )
 
